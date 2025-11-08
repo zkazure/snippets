@@ -1,0 +1,5 @@
+# key: TT
+# name: textbf
+# condition: (and (texmathp) 'auto)
+# --
+\textbf{$0}

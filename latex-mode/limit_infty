@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: limit
-# key: Lim
+# name: limit_infty
+# key: LIM
 # conditon: (texmathp)
 # group: math
 # --
-\\lim_{$0}
+\\lim_{${1:n} \\to ${2:\\infty}} $0

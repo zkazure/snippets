@@ -1,0 +1,5 @@
+# key: Tt
+# name: text
+# condition: (and (texmathp) 'auto)
+# --
+\text{$0}
