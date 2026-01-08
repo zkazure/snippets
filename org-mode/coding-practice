@@ -1,0 +1,40 @@
+# -*- mode: snippet -*-
+# name: coding-practice
+# key: coding-practice
+# --
+
+* Global Environment
+
+#+name: env
+#+begin_src cpp
+  #include <bits/stdc++.h>
+  using namespace std;
+
+  void check(int exp, int res) {
+    if (expected != res)
+      printf("FAIL! expected %d, but got %d\n", expected, res);
+    else
+      printf("Success!!!\n");  
+  }
+
+  int main() {
+
+    return 0;
+  }
+#+end_src
+
+
+* Write here
+#+name:void
+
+#+name: sol
+
+* Submit
+
+#+begin_src cpp :noweb yes :results verbatim
+  <<env>>
+
+  <<sol>>
+#+end_src
+
+* Answer

@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: limit
 # key: Lim
-# conditon: (texmathp)
+# condition: (and (texmathp) 'auto)
 # group: math
 # --
 \\lim_{$0}
