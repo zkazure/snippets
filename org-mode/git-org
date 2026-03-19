@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: git org
+# key: git-org
+# --
+# -*- eval: (add-hook 'after-save-hook 'my/org-export-subtrees-to-gfm 'append 'local) -*-
+#+TITLE: README
+#+OPTIONS: toc:nil author:nil title:nil
+* README
+:PROPERTIES:
+:EXPORT_FILE_NAME: README.md
+:END:
+This is a README.
+
+* File 2
+:PROPERTIES:
+:EXPORT_FILE_NAME: 
+:END:
+
