@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: dir-locals
+# key: dir-locals
+# --
+
+;;; Directory Local Variables            -*- no-byte-compile: t -*-
+;;; For more information see (info "(emacs) Directory Variables")
+
+((c-ts-mode . ((apheleia-mode . 1)
+               (eval . (indent-bar-mode 1)))))
