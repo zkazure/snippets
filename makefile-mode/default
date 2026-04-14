@@ -1,0 +1,19 @@
+# key: default
+# name: default
+# --
+.PHONY: help build
+
+# if not exist, then set
+VAR ?= var
+
+help:
+    @echo "this is a help cmd"
+
+build: $(OUTDIR)
+    $(GO) build -o $(OUTDIR)/$(BINARY) ./cmd/api
+
+$(OUTDIR):
+    mkdir -p $(OUTDIR)
+
+# if you run make without any arguments
+.DEFAULT_GOAL := help
